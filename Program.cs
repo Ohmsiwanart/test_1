@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace close_friend
+namespace sadjang
 {
     class Program
     {
@@ -32,5 +32,4 @@ namespace close_friend
             Console.ReadLine();
         }
     }
-    
 }
