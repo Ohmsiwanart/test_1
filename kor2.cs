@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sobcode
+namespace kor2
 {
     class Program
     {
