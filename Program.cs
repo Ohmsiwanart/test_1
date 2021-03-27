@@ -1,35 +1,30 @@
 ﻿using System;
 
-namespace sadjang
+namespace testcodeweek7
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("input mode :");
-            string m = Console.ReadLine();
-            Console.Write("input time :");
-            double t = double.Parse(Console.ReadLine());
-            Console.Write("input price :");
-            double p = double.Parse(Console.ReadLine());
-            if ((m == "time") && (t > 0))
+            int a, b, x, y;
+            Console.Write("Input number a :");
+            a = int.Parse(Console.ReadLine());
+            Console.Write("Input number b :");
+            b = int.Parse(Console.ReadLine());
+            x = a;
+            y = b;
+            do
             {
-                Console.Write("{0}, {1}", t, p = Math.Pow(t - 1, 2));
-            }
-            else if (t < 0)
-            {
-                Console.Write("Invalid mouse position");
-            }
-            else if (m == "price")
-            {
-                Console.Write("{0}, {1}", t = Math.Sqrt(p) + 1, p);
-            }
-            else if (m != "time" || m != "price")
-            {
-                Console.Write("Invalid mode");
-            }
-
-            Console.ReadLine();
+                if (x < y)
+                {
+                    x = x + a;
+                }
+                else
+                {
+                    y = y + b;
+                }
+            } while (x != y);
+            Console.Write(x);
         }
     }
 }
