@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace kor2
+namespace Program
 {
     class Program
     {
