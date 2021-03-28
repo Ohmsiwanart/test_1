@@ -29,24 +29,30 @@ namespace testcodeweek7
                         Console.Write("How many to remove? : ");
                         re_buc = int.Parse(Console.ReadLine());
                         Console.WriteLine("");
-                        if ((re_buc >= 1 && re_buc < 3))
+                        if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                         { box1 = box1 - re_buc; }
+                        else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                         break;
 
                     case 2:
                         Console.Write("How many to remove? : ");
                         re_buc = int.Parse(Console.ReadLine());
                         Console.WriteLine("");
-                        if ((re_buc >= 1 && re_buc < 3))
+                        if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                         { box2 = box2 - re_buc; }
+                        else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                         break;
 
                     case 3:
                         Console.Write("How many to remove? : ");
                         re_buc = int.Parse(Console.ReadLine());
                         Console.WriteLine("");
-                        if ((re_buc >= 1 && re_buc < 3))
+                        if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                         { box3 = box3 - re_buc; }
+                        else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                         break;
                 }
                 if (box1 == 0 && box2 == 0 && box3 == 0)
@@ -67,24 +73,30 @@ namespace testcodeweek7
                             Console.Write("How many to remove? : ");
                             re_buc = int.Parse(Console.ReadLine());
                             Console.WriteLine("");
-                            if ((re_buc >= 1 && re_buc < 3))
+                            if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                             { box1 = box1 - re_buc; }
+                            else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                             break;
 
                         case 2:
                             Console.Write("How many to remove? : ");
                             re_buc = int.Parse(Console.ReadLine());
                             Console.WriteLine("");
-                            if ((re_buc >= 1 && re_buc < 3))
+                            if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                             { box2 = box2 - re_buc; }
+                            else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                             break;
 
                         case 3:
                             Console.Write("How many to remove? : ");
                             re_buc = int.Parse(Console.ReadLine());
                             Console.WriteLine("");
-                            if ((re_buc >= 1 && re_buc < 3))
+                            if ((re_buc >= 1 && re_buc < 3)&& box1 >= 0)
                             { box3 = box3 - re_buc; }
+                            else { Console.WriteLine("dafuq r u doing???"); }
+                            Console.WriteLine("");
                             break;
                     }
                     if (box1 == 0 && box2 == 0 && box3 == 0)
