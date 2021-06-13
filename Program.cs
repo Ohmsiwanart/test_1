@@ -6,23 +6,7 @@ namespace final_test
     {
         static void Main(string[] args)
         {
-            /* int size = int.Parse(Console.ReadLine());
-             double[] answer = new double[size] ;    
-             for (int i = 0; i < answer.Length; i++)
-             {
-                 answer[i] = double.Parse(Console.ReadLine());
-                 Console.WriteLine(answer.Length);
-             }*/
-
-            /*string inputstring = Console.ReadLine();
-            if (inputstring == "FindMax")
-            {
-                int FindMax = (Math.Max(5, 10));
-            }
-            else if (inputstring == "FindMin")
-            {
-                int FindMin = (Math.Min());}
-            */
+            
             Console.Write("input size : ");
             int size = int.Parse(Console.ReadLine());
             int[] answer = new int[size]; 
