@@ -1,30 +1,18 @@
 ﻿using System;
 
-namespace testcodeweek7
+namespace longcode
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a, b, x, y;
-            Console.Write("Input number a :");
-            a = int.Parse(Console.ReadLine());
-            Console.Write("Input number b :");
-            b = int.Parse(Console.ReadLine());
-            x = a;
-            y = b;
-            do
+            int n = 0;
+            while (n >= 0)
             {
-                if (x < y)
-                {
-                    x = x + a;
-                }
-                else
-                {
-                    y = y + b;
-                }
-            } while (x != y);
-            Console.Write(x);
+                Console.WriteLine("kuy");
+                n = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("here");
         }
     }
 }
